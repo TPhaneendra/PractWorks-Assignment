@@ -14,10 +14,6 @@ def fun():
     e = random.randint(1, 10)
     f = random.randint(1, 10)
 
-    while b == 0 or d == 0:
-        b = random.randint(1, 10)
-        d = random.randint(1, 10)
-
     q_tex = f"\\( {a}x - \\frac{{1}}{{{b}}} = \\frac{{1}}{{{d}}} - {c}x \\)"
 
     sum_coeff = a + c
